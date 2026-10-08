@@ -802,10 +802,10 @@ body.menu-open .site-header .brand-copy small { color: var(--crimson); }
 .specialties { background: var(--bg-main); }
 .specialties-heading { max-width: 760px; }
 .special-row { max-width: 1180px; }
-.special-row-bun-bo-hue {
+.special-row-wide-media {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
 }
-.special-row-bun-bo-hue .special-media {
+.special-row-wide-media .special-media {
   height: auto;
   aspect-ratio: 5 / 4;
 }
@@ -1435,7 +1435,7 @@ body.menu-open .site-header .brand-copy small { color: var(--crimson); }
 
   .special-row,
   .special-row-reverse,
-  .special-row-bun-bo-hue { grid-template-columns: 1fr; }
+  .special-row-wide-media { grid-template-columns: 1fr; }
   .special-row-reverse .special-media { order: 0; }
 
   .gallery-grid {
