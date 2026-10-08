@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>body{margin:0;background:white}iframe{display:block;border:0}pre{margin:0;font:14px monospace}</style></head><body><iframe id="mobile" src="../index.html" width="390" height="844"></iframe><iframe id="desktop" src="../index.html" width="1440" height="900"></iframe><pre id="results">[
+  {
+    "id": "mobile",
+    "viewport": 390,
+    "source": "file:///D:/Dong%20Que%20Quan%20M%C3%BCnchen/images/responsive/hero/hero-courtyard-v3.jpg",
+    "naturalWidth": 1915,
+    "naturalHeight": 821,
+    "heroHeight": 844,
+    "transform": "none",
+    "animation": "none",
+    "overflow": true
+  },
+  {
+    "id": "desktop",
+    "viewport": 1440,
+    "source": "file:///D:/Dong%20Que%20Quan%20M%C3%BCnchen/images/responsive/hero/hero-courtyard-v3.jpg",
+    "naturalWidth": 1439,
+    "naturalHeight": 617,
+    "heroHeight": 900,
+    "transform": "matrix(1.09, 0, 0, 1.09, 0, 0)",
+    "animation": "hero-camera-arrival",
+    "overflow": false
+  }
+]</pre><script>setTimeout(()=>{results.textContent=JSON.stringify(['mobile','desktop'].map(id=>{const frame=document.getElementById(id),doc=frame.contentDocument;doc.documentElement.classList.add('page-ready');const style=doc.createElement('style');style.textContent='.hero-content>*,.hero h1 span,.site-header{animation:none!important;opacity:1!important;filter:none!important;transform:none!important}';doc.head.append(style);const img=doc.querySelector('.hero-image'),css=frame.contentWindow.getComputedStyle(img);return {id,viewport:frame.contentWindow.innerWidth,source:img.currentSrc,naturalWidth:img.naturalWidth,naturalHeight:img.naturalHeight,heroHeight:doc.querySelector('.hero').offsetHeight,transform:css.transform,animation:css.animationName,overflow:doc.documentElement.scrollWidth>frame.contentWindow.innerWidth}}),null,2)},6500)</script></body></html>

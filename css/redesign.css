@@ -1477,7 +1477,14 @@ body.menu-open .site-header .brand-copy small { color: var(--crimson); }
     min-height: 100dvh;
     padding: calc(var(--header-h) + 1.25rem) 1.15rem 2.75rem;
   }
-  .hero-image { object-position: center; }
+  .hero-image,
+  .js:not(.page-ready) .hero-image,
+  .js.page-ready .hero-image {
+    object-position: center;
+    transform: none;
+    animation: none;
+    filter: none;
+  }
   .hero-shade {
     background:
       radial-gradient(ellipse 72% 54% at 50% 46%, rgba(107, 36, 40, 0.62), transparent 78%),
