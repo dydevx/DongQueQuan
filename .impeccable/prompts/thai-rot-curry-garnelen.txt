@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: featured dish card
+Primary request: Thai red curry with giant prawns as served in a Vietnamese restaurant
+Scene/backdrop: dark stone tabletop, minimal refined restaurant setting
+Subject: vivid red coconut curry with multiple clearly visible large prawns, bell pepper, Thai basil, lime leaves and vegetables in a dark ceramic bowl, steamed rice at the edge
+Style/medium: realistic professional restaurant food photography
+Composition/framing: portrait-friendly three-quarter close-up, prawns are the obvious hero, whole bowl visible
+Lighting/mood: warm cinematic side light, appetizing realistic sauce texture
+Constraints: unmistakable prawns in red curry, no chicken, no sushi, no people, no text, no logo, no watermark

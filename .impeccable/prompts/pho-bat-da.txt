@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: speciality editorial image
+Primary request: phở bát đá served in a hot stone bowl
+Scene/backdrop: dark lacquered restaurant table
+Subject: actively simmering clear Vietnamese beef broth in a heavy black stone bowl, separate plate of thin raw Argentine-style beef slices, flat rice noodles, bean sprouts, basil, coriander, onion and lime
+Style/medium: realistic professional restaurant food photography
+Composition/framing: landscape three-quarter view, stone bowl and ingredient plate both fully visible, steam natural
+Lighting/mood: warm dramatic side light
+Constraints: unmistakable hot-stone phở service, no Japanese hot pot, no sushi, no people, no text, no logo, no watermark

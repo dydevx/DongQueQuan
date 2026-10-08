@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T11:49:18.4475311+07:00",
+  "title": "Design System: Dong Que Quan München",
+  "extensions": {
+    "colorMeta": {
+      "night-ink": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "#101412",
+        "tonalRamp": ["#101412", "#1b211d", "#29322b", "#3c493f", "#56665a", "#7d8b80", "#b7bfb8", "#eef1ee"]
+      },
+      "raised-ink": {
+        "role": "neutral",
+        "displayName": "Raised Ink",
+        "canonical": "#171d19",
+        "tonalRamp": ["#111612", "#171d19", "#273029", "#3b483e", "#556359", "#7e897f", "#bbc1bb", "#f0f2ef"]
+      },
+      "soft-ink": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#202722",
+        "tonalRamp": ["#111713", "#202722", "#303a33", "#465349", "#606e63", "#87938a", "#c0c6c1", "#f1f3f1"]
+      },
+      "warm-paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#f3efe4",
+        "tonalRamp": ["#29251d", "#484237", "#696154", "#8c8272", "#afa594", "#cec6b8", "#e5dfd3", "#f3efe4"]
+      },
+      "paper-muted": {
+        "role": "neutral",
+        "displayName": "Paper Muted",
+        "canonical": "#c7c6b9",
+        "tonalRamp": ["#22231d", "#3e4036", "#5c5e52", "#7b7d70", "#9b9c8e", "#b7b7a9", "#d6d5ca", "#f1f0e8"]
+      },
+      "service-muted": {
+        "role": "neutral",
+        "displayName": "Service Muted",
+        "canonical": "#9aa299",
+        "tonalRamp": ["#182019", "#303a31", "#49544a", "#646f65", "#7f8a80", "#9aa299", "#c5cac5", "#edf0ed"]
+      },
+      "lacquer-red": {
+        "role": "primary",
+        "displayName": "Lacquer Red",
+        "canonical": "#c03743",
+        "tonalRamp": ["#3e0e15", "#5f151f", "#801e29", "#9f2935", "#c03743", "#d85b65", "#eb8d93", "#f8dfe1"]
+      },
+      "lacquer-red-dark": {
+        "role": "primary",
+        "displayName": "Deep Lacquer",
+        "canonical": "#9f2833",
+        "tonalRamp": ["#360b11", "#54121a", "#711a23", "#8a232d", "#9f2833", "#c04d57", "#df858b", "#f5dfe1"]
+      },
+      "signal-red": {
+        "role": "secondary",
+        "displayName": "Signal Red",
+        "canonical": "#df747c",
+        "tonalRamp": ["#441319", "#671e26", "#8b2c35", "#af414a", "#cf5d66", "#df747c", "#eda6ab", "#fae3e5"]
+      },
+      "herb": {
+        "role": "tertiary",
+        "displayName": "Fresh Herb",
+        "canonical": "#87b99a",
+        "tonalRamp": ["#10251a", "#1f3d2b", "#315740", "#47725a", "#619077", "#87b99a", "#b5d4bf", "#e5f1e9"]
+      },
+      "night-line": {
+        "role": "neutral",
+        "displayName": "Night Hairline",
+        "canonical": "rgba(243, 239, 228, 0.16)",
+        "tonalRamp": ["rgba(243,239,228,0.04)", "rgba(243,239,228,0.08)", "rgba(243,239,228,0.12)", "rgba(243,239,228,0.16)", "rgba(243,239,228,0.22)", "rgba(243,239,228,0.30)", "rgba(243,239,228,0.42)", "rgba(243,239,228,0.58)"]
+      },
+      "night-line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Night Hairline",
+        "canonical": "rgba(243, 239, 228, 0.34)",
+        "tonalRamp": ["rgba(243,239,228,0.08)", "rgba(243,239,228,0.14)", "rgba(243,239,228,0.22)", "rgba(243,239,228,0.34)", "rgba(243,239,228,0.44)", "rgba(243,239,228,0.56)", "rgba(243,239,228,0.70)", "rgba(243,239,228,0.86)"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Matchbook Display",
+        "purpose": "The two-line hero identity and its red poster strip."
+      },
+      "headline": {
+        "displayName": "Poster Headline",
+        "purpose": "Uppercase section headlines and oversized service statements."
+      },
+      "title": {
+        "displayName": "Food Title",
+        "purpose": "Dish cards, menu groups, speciality names, and local titles."
+      },
+      "body": {
+        "displayName": "Service Body",
+        "purpose": "Descriptions, addresses, instructions, and narrative copy."
+      },
+      "label": {
+        "displayName": "Ledger Label",
+        "purpose": "Navigation, filters, prices, metadata, and compact controls."
+      }
+    },
+    "shadows": [
+      {
+        "name": "offset-photograph",
+        "value": "0 28px 70px rgba(3, 8, 5, 0.34)",
+        "purpose": "Depth under the offset interior photograph only."
+      },
+      {
+        "name": "floating-utility",
+        "value": "0 18px 45px rgba(3, 8, 5, 0.35)",
+        "purpose": "Cart launcher and toast feedback only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Shared tactile easing for controls, media, and entry states."
+      },
+      {
+        "name": "control-fast",
+        "value": "200ms",
+        "purpose": "Active compression and compact feedback."
+      },
+      {
+        "name": "control-standard",
+        "value": "250ms",
+        "purpose": "Button, border, filter, and color transitions."
+      },
+      {
+        "name": "hero-copy-enter",
+        "value": "900ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "One-time rise and deblur for the hero copy sequence."
+      },
+      {
+        "name": "hero-image-settle",
+        "value": "1400ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "One-time scale and color settle for the first-view food image."
+      },
+      {
+        "name": "cart-enter",
+        "value": "350ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Side-panel entrance when motion is allowed."
+      },
+      {
+        "name": "repeated-reveal",
+        "value": "none",
+        "purpose": "Generic section reveal classes are intentionally neutralized in the redesign."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "520px"
+      },
+      {
+        "name": "mobile-poster",
+        "value": "820px"
+      },
+      {
+        "name": "dense-grid",
+        "value": "1180px"
+      },
+      {
+        "name": "navigation-collapse",
+        "value": "1240px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The decisive action for menu discovery, reservation, form submission, and recovery states.",
+      "html": "<button class=\"ds-btn-primary\">SPEISEKARTE ENTDECKEN</button>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; justify-content:center; min-height:50px; padding:.84rem 1.35rem; border:0; border-radius:var(--radius-sm,10px); background:var(--signal,#c03743); color:var(--paper,#f3efe4); font:700 .82rem/1.1 Manrope,Arial,sans-serif; cursor:pointer; transition:background .25s var(--ease,cubic-bezier(.16,1,.3,1)),transform .2s var(--ease,cubic-bezier(.16,1,.3,1)); } .ds-btn-primary:hover { background:var(--signal-dark,#9f2833); transform:translateY(-2px); } .ds-btn-primary:active { transform:scale(.98); } .ds-btn-primary:focus-visible { outline:3px solid var(--herb,#87b99a); outline-offset:4px; } @media (prefers-reduced-motion:reduce) { .ds-btn-primary { transition-duration:.01ms; } }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "A secondary action that stays legible over dark photography and poster fields.",
+      "html": "<button class=\"ds-btn-ghost\">TISCH RESERVIEREN</button>",
+      "css": ".ds-btn-ghost { display:inline-flex; align-items:center; justify-content:center; min-height:50px; padding:.84rem 1.35rem; border:1px solid var(--night-line-strong,rgba(243,239,228,.34)); border-radius:var(--radius-sm,10px); background:rgba(16,20,18,.48); color:var(--paper,#f3efe4); font:700 .82rem/1.1 Manrope,Arial,sans-serif; cursor:pointer; transition:background .25s var(--ease,cubic-bezier(.16,1,.3,1)),border-color .25s var(--ease,cubic-bezier(.16,1,.3,1)),color .25s var(--ease,cubic-bezier(.16,1,.3,1)),transform .2s var(--ease,cubic-bezier(.16,1,.3,1)); } .ds-btn-ghost:hover { border-color:var(--paper,#f3efe4); background:var(--paper,#f3efe4); color:var(--ink,#101412); transform:translateY(-2px); } .ds-btn-ghost:active { transform:scale(.98); } .ds-btn-ghost:focus-visible { outline:3px solid var(--herb,#87b99a); outline-offset:4px; }"
+    },
+    {
+      "name": "Menu Filter",
+      "kind": "chip",
+      "refersTo": "chip-filter",
+      "description": "A compact, scrollable category filter; the active state uses the primary red fill.",
+      "html": "<div class=\"ds-filter-strip\"><button class=\"ds-filter\" aria-pressed=\"false\">VORSPEISEN</button><button class=\"ds-filter is-active\" aria-pressed=\"true\">HAUPTSPEISEN</button><button class=\"ds-filter\" aria-pressed=\"false\">VEGETARISCH</button></div>",
+      "css": ".ds-filter-strip { display:flex; gap:.5rem; overflow-x:auto; padding:.2rem 0 .35rem; scrollbar-width:none; } .ds-filter-strip::-webkit-scrollbar { display:none; } .ds-filter { flex:0 0 auto; min-height:42px; padding:.52rem .9rem; border:1px solid var(--night-line,rgba(243,239,228,.16)); border-radius:var(--radius-sm,10px); background:transparent; color:var(--paper-muted,#c7c6b9); font:700 .78rem/1 Manrope,Arial,sans-serif; cursor:pointer; transition:background .2s,border-color .2s,color .2s; } .ds-filter:hover { border-color:var(--paper-muted,#c7c6b9); color:var(--paper,#f3efe4); } .ds-filter.is-active { border-color:var(--signal,#c03743); background:var(--signal,#c03743); color:var(--paper,#f3efe4); } .ds-filter:focus-visible { outline:3px solid var(--herb,#87b99a); outline-offset:4px; }"
+    },
+    {
+      "name": "Menu Search Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "The compact full-text field paired with the sticky menu filter strip.",
+      "html": "<label class=\"ds-field\"><span>GERICHT SUCHEN</span><input type=\"search\" placeholder=\"Gericht suchen\"></label>",
+      "css": ".ds-field { display:grid; gap:.45rem; color:var(--paper-muted,#c7c6b9); font:700 .75rem/1 Manrope,Arial,sans-serif; letter-spacing:.05em; } .ds-field input { width:100%; min-height:48px; padding:.75rem .9rem; border:1px solid var(--night-line,rgba(243,239,228,.16)); border-radius:var(--radius-sm,10px); background:var(--ink,#101412); color:var(--paper,#f3efe4); caret-color:var(--signal,#c03743); font:400 1rem/1.65 Manrope,Arial,sans-serif; transition:border-color .2s var(--ease,cubic-bezier(.16,1,.3,1)); } .ds-field input::placeholder { color:#8e958d; } .ds-field input:focus { border-color:var(--herb,#87b99a); outline:3px solid var(--herb,#87b99a); outline-offset:4px; }"
+    },
+    {
+      "name": "Night Navigation",
+      "kind": "nav",
+      "description": "The fixed dark service rail with compact wordmark, links, and red activity line.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Beispielnavigation\"><strong>DONG QUE QUAN</strong><span><a href=\"#\">STARTSEITE</a><a href=\"#\">SPEISEKARTE</a><a href=\"#\">KONTAKT</a></span></nav>",
+      "css": ".ds-nav { min-height:72px; display:flex; align-items:center; justify-content:space-between; gap:2rem; padding:.7rem 1.5rem; border-bottom:1px solid rgba(243,239,228,.1); background:rgba(16,20,18,.88); color:var(--paper,#f3efe4); backdrop-filter:blur(16px); } .ds-nav strong { font:700 .92rem/1 Manrope,Arial,sans-serif; letter-spacing:-.02em; } .ds-nav span { display:flex; gap:1.5rem; } .ds-nav a { position:relative; padding:.4rem 0; color:var(--paper-muted,#c7c6b9); font:700 .75rem/1 Manrope,Arial,sans-serif; text-decoration:none; } .ds-nav a::after { content:\"\"; position:absolute; right:0; bottom:-.55rem; left:0; height:2px; background:var(--signal,#c03743); transform:scaleX(0); transform-origin:right; transition:transform .3s var(--ease,cubic-bezier(.16,1,.3,1)); } .ds-nav a:hover,.ds-nav a:focus-visible { color:var(--paper,#f3efe4); } .ds-nav a:hover::after,.ds-nav a:focus-visible::after { transform:scaleX(1); transform-origin:left; } .ds-nav a:focus-visible { outline:3px solid var(--herb,#87b99a); outline-offset:4px; }"
+    },
+    {
+      "name": "Dish Mosaic Card",
+      "kind": "card",
+      "refersTo": "media-card",
+      "description": "A food-first mosaic tile with a dark legibility gradient and compact two-column caption.",
+      "html": "<article class=\"ds-dish-card\"><div class=\"ds-dish-media\" aria-hidden=\"true\"></div><div class=\"ds-dish-copy\"><h3>BANH XEO</h3><p>Goldgelber Reispfannkuchen mit frischen Kräutern.</p><strong>12,90 €</strong></div></article>",
+      "css": ".ds-dish-card { position:relative; min-height:360px; overflow:hidden; border-radius:var(--radius,14px); background:var(--ink-raised,#171d19); color:var(--paper,#f3efe4); } .ds-dish-media { position:absolute; inset:0; background:radial-gradient(circle at 60% 35%,#d3a94b 0 12%,#7a4931 30%,#243027 70%); } .ds-dish-card::after { content:\"\"; position:absolute; inset:30% 0 0; background:linear-gradient(0deg,rgba(9,12,10,.94),transparent); } .ds-dish-copy { position:absolute; z-index:1; right:1.4rem; bottom:1.35rem; left:1.4rem; display:grid; grid-template-columns:1fr auto; align-items:end; gap:.4rem 1rem; } .ds-dish-copy h3 { grid-column:1; margin:0; color:var(--paper,#f3efe4); font:700 2rem/.94 Manrope,Arial,sans-serif; letter-spacing:-.035em; } .ds-dish-copy p { grid-column:1; margin:0; color:var(--paper-muted,#c7c6b9); font:400 .82rem/1.55 Manrope,Arial,sans-serif; } .ds-dish-copy strong { grid-column:2; grid-row:1/3; color:var(--paper,#f3efe4); font:700 .92rem/1 Manrope,Arial,sans-serif; font-variant-numeric:tabular-nums; } .ds-dish-card:focus-within { outline:3px solid var(--herb,#87b99a); outline-offset:4px; }"
+    },
+    {
+      "name": "Menu Ledger Item",
+      "kind": "custom",
+      "description": "A stable dark menu row with number, title, price, description, metadata, and square add action.",
+      "html": "<article class=\"ds-menu-item\"><div class=\"ds-menu-head\"><span>VS2</span><h3>PHO BAT DA</h3></div><strong>19,90 €</strong><p>Reisbandnudelsuppe mit Rindsteak und frischen Kräutern.</p><small>ALLERGENE: A, E, C, 3, 9</small><button>HINZUFÜGEN</button></article>",
+      "css": ".ds-menu-item { display:grid; grid-template-columns:minmax(0,1fr) auto; column-gap:1.5rem; min-height:11rem; padding:1.45rem 0; border-bottom:1px solid var(--night-line,rgba(243,239,228,.16)); color:var(--paper,#f3efe4); } .ds-menu-head { display:flex; align-items:baseline; gap:.75rem; } .ds-menu-head span { color:var(--signal-bright,#df747c); font:700 .76rem/1 Manrope,Arial,sans-serif; letter-spacing:.06em; } .ds-menu-head h3 { margin:0; color:var(--paper,#f3efe4); font:700 1rem/1.2 Manrope,Arial,sans-serif; letter-spacing:-.02em; } .ds-menu-item>strong { font:700 1rem/1 Manrope,Arial,sans-serif; font-variant-numeric:tabular-nums; white-space:nowrap; } .ds-menu-item>p,.ds-menu-item>small { grid-column:1; margin-left:3rem; } .ds-menu-item>p { margin-top:.45rem; margin-bottom:0; color:var(--paper-muted,#c7c6b9); font:400 .88rem/1.6 Manrope,Arial,sans-serif; } .ds-menu-item>small { margin-top:.35rem; color:var(--muted,#9aa299); font:600 .75rem/1.4 Manrope,Arial,sans-serif; letter-spacing:.04em; } .ds-menu-item>button { grid-column:2; align-self:end; min-height:36px; padding:.42rem .75rem; border:1px solid var(--night-line-strong,rgba(243,239,228,.34)); border-radius:0; background:transparent; color:var(--paper,#f3efe4); font:700 .76rem/1 Manrope,Arial,sans-serif; cursor:pointer; } .ds-menu-item>button:hover { border-color:var(--signal-bright,#df747c); color:var(--signal-bright,#df747c); } .ds-menu-item>button:focus-visible { outline:3px solid var(--herb,#87b99a); outline-offset:4px; }"
+    },
+    {
+      "name": "Lunch Poster",
+      "kind": "custom",
+      "description": "The rare full-field red poster that interrupts the dark story with hours and a lunch-menu action.",
+      "html": "<section class=\"ds-lunch\"><strong>11:00<i></i>15:00</strong><div><h2>MITTAGSKARTE</h2><p>Montag bis Freitag. Ausgewählte Gerichte zum Mittagspreis.</p><a href=\"#\">MITTAGSKARTE ANSEHEN →</a></div></section>",
+      "css": ".ds-lunch { position:relative; display:grid; grid-template-columns:1.1fr .9fr; gap:clamp(2rem,8vw,9rem); overflow:hidden; padding:clamp(4rem,8vw,8rem); background:var(--signal,#c03743); color:var(--paper,#f3efe4); } .ds-lunch::after { content:\"MITTAG\"; position:absolute; right:-.03em; bottom:-.2em; color:rgba(243,239,228,.12); font:700 clamp(7rem,18vw,18rem)/.8 Manrope,Arial,sans-serif; letter-spacing:-.05em; } .ds-lunch>* { position:relative; z-index:1; } .ds-lunch>strong { display:grid; align-content:center; color:var(--paper,#f3efe4); font:700 clamp(3.5rem,7.5vw,6rem)/.85 Manrope,Arial,sans-serif; letter-spacing:-.04em; } .ds-lunch>strong i { width:3ch; height:3px; margin:.35em 0; background:currentColor; } .ds-lunch h2 { margin:0 0 1rem; color:var(--paper,#f3efe4); font:700 clamp(2.5rem,5.8vw,5.8rem)/.94 Manrope,Arial,sans-serif; letter-spacing:-.04em; } .ds-lunch p { color:rgba(243,239,228,.82); font:400 1rem/1.65 Manrope,Arial,sans-serif; } .ds-lunch a { color:inherit; font:700 .82rem/1 Manrope,Arial,sans-serif; text-underline-offset:.22em; } .ds-lunch a:focus-visible { outline:3px solid var(--herb,#87b99a); outline-offset:4px; } @media (max-width:820px) { .ds-lunch { grid-template-columns:1fr; gap:2.5rem; padding:4rem 1.25rem; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Saigon Matchbook",
+    "overview": "The interface feels like a contemporary Vietnamese night-market poster printed on a dark matchbook: near-black stock, warm paper ink, lacquer-red blocks, tightly packed sans-serif type, and real food photography. It is energetic without becoming noisy, premium without becoming delicate, and unmistakably restaurant-first.\n\nThe system replaces the former luminous porcelain and serif world. Manrope carries every role, from oversized headlines to operating details. Hierarchy comes from scale, compression, color blocks, asymmetric image mosaics, and tonal layers rather than ornamental typography or generic pan-Asian motifs.",
+    "keyCharacteristics": [
+      "Near-black page stock with slightly raised dark-green surfaces.",
+      "Tight, uppercase Manrope headlines and plain-spoken Manrope body copy.",
+      "Lacquer red for decisive actions and poster fields; brighter red for small labels on dark.",
+      "Warm paper text instead of pure white; herb green only for vegetarian meaning and keyboard focus.",
+      "Asymmetric food and interior mosaics with one consistent 14px crop radius.",
+      "One opening hero-settle sequence; repeated section reveals are intentionally disabled."
+    ],
+    "rules": [
+      {
+        "name": "The Red Block Rule",
+        "body": "Lacquer red may become a large field only when the surface reads as a deliberate poster, such as the hero title strip or lunch section; elsewhere it marks action and selection.",
+        "section": "colors"
+      },
+      {
+        "name": "The Herb Means Something Rule",
+        "body": "Herb green is not decoration. Reserve it for vegetarian meaning and focus visibility.",
+        "section": "colors"
+      },
+      {
+        "name": "The One-Voice Rule",
+        "body": "Use Manrope throughout; do not reintroduce the retired serif as a display flourish.",
+        "section": "typography"
+      },
+      {
+        "name": "The Poster Compression Rule",
+        "body": "H1–h3 stay uppercase, heavy, tightly tracked, and closely led. Body copy remains sentence case and breathable.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ledger Holds Still Rule",
+        "body": "Filtering and searching may change menu content, but toolbar position, stable price alignment, and the visitor’s reading anchor must remain calm.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Poster Rule",
+        "body": "Do not add shadows to food cards, menu rows, forms, or poster sections; use tone, crop, hairlines, and overlap first.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Ten-and-Fourteen Rule",
+        "body": "Use 10px for touch controls and 14px for media or surfaces; avoid pills and avoid inventing extra radius tiers.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do use real, dish-specific photography as the richest color in the interface.",
+      "Do keep headline composition blocky, uppercase, and tightly compressed.",
+      "Do reserve large Lacquer Red fields for the hero title strip and lunch poster.",
+      "Do keep the long menu searchable, filterable, horizontally scrollable on mobile, and visually aligned like a ledger.",
+      "Do preserve the one-time hero settle, tactile state feedback, reduced-motion behavior, and the 820px one-column transition.",
+      "Do use 10px controls and 14px media or surfaces consistently."
+    ],
+    "donts": [
+      "Don't restore the porcelain background, serif display typography, gold ornament, or capsule-control language from the previous world.",
+      "Don't use Herb as a general accent or Signal Red for large fills.",
+      "Don't add generic repeated scroll reveals, parallax, or decorative motion after the opening hero sequence.",
+      "Don't add shadows to ordinary cards or ledger rows.",
+      "Don't introduce generic pan-Asian motifs, sushi-coded decoration, or fabricated heritage cues.",
+      "Don't reuse one food image to represent a different named dish."
+    ]
+  }
+}

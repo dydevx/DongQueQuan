@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: dessert gallery image
+Primary request: authentic Vietnamese bánh cam
+Scene/backdrop: dark wood table with a small ceramic tea cup in soft focus
+Subject: five round golden deep-fried sesame balls, one cut open to reveal sweet red bean filling, arranged on a simple dark ceramic plate
+Style/medium: realistic professional restaurant food photography, crisp sesame texture
+Composition/framing: portrait-friendly close-up, all pieces visible, centered
+Lighting/mood: soft warm side light, inviting dessert mood
+Constraints: unmistakable bánh cam sesame balls, no mochi, no people, no text, no logo, no watermark

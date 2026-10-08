@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: kitchen gallery image
+Primary request: Vietnamese xôi gà rô ti
+Scene/backdrop: dark ceramic plate on a charcoal stone restaurant table
+Subject: glossy roasted chicken pieces over white sticky rice with pickled carrot and cauliflower, fresh herbs and a restrained savory glaze
+Style/medium: realistic professional restaurant food photography, natural textures
+Composition/framing: portrait-friendly close-up, whole plate visible and centered
+Lighting/mood: soft warm side light, appetizing and refined
+Constraints: unmistakable chicken with sticky rice, no curry, no sushi, no people, no text, no logo, no watermark

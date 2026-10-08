@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: kitchen gallery image
+Primary request: authentic Vietnamese gỏi đu đủ
+Scene/backdrop: matte charcoal stone table
+Subject: fresh green papaya salad with dried fish, sliced vegetables, herbs, peanuts and crisp prawn crackers arranged separately at the edge
+Style/medium: realistic professional restaurant food photography, crisp natural textures
+Composition/framing: portrait-friendly three-quarter close-up, whole plate visible
+Lighting/mood: warm soft side light, fresh and appetizing
+Constraints: unmistakable green papaya salad, no noodles, no sushi, no people, no text, no logo, no watermark

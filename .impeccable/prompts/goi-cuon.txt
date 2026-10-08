@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: featured dish card
+Primary request: authentic Vietnamese gỏi cuốn
+Scene/backdrop: dark walnut table with understated contemporary Vietnamese place setting
+Subject: three translucent fresh rice-paper summer rolls showing shrimp, pork, rice noodles, lettuce and herbs, with a small bowl of hoisin-peanut dipping sauce
+Style/medium: realistic professional restaurant food photography, true rice-paper texture
+Composition/framing: portrait-friendly close-up, all rolls fully visible, diagonal arrangement with calm negative space
+Lighting/mood: soft warm daylight, fresh and premium
+Constraints: fresh unfried summer rolls only, no spring rolls, no sushi, no people, no text, no logo, no watermark

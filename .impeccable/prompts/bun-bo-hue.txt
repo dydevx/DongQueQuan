@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: speciality editorial image
+Primary request: authentic Vietnamese bún bò Huế
+Scene/backdrop: dark lacquered table, subtle contemporary Vietnamese dining room in soft focus
+Subject: steaming bowl of spicy red-orange lemongrass broth with round rice noodles, slices of beef and pork, herbs, bean sprouts, lime and chili served alongside
+Style/medium: realistic professional restaurant food photography, natural textures
+Composition/framing: landscape-friendly three-quarter close-up, bowl fully visible, centered with a little negative space
+Lighting/mood: warm moody side light, appetizing and authentic
+Constraints: unmistakably bún bò Huế, visibly spicy broth, not phở, no people, no text, no logo, no watermark

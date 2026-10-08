@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: restaurant about section
+Primary request: intimate contemporary Vietnamese restaurant interior in Munich
+Scene/backdrop: evening dining room with dark walnut tables, warm woven pendant lights, charcoal walls, restrained lacquer-red and muted brass details, a few green plants
+Subject: empty beautifully set tables and a welcoming dining area
+Style/medium: ultra-realistic architectural hospitality photography
+Composition/framing: landscape interior photograph with clear depth, one table in foreground and room unfolding behind
+Lighting/mood: warm amber evening light, elegant, authentic, calm
+Constraints: no people, no signage, no text, no logo, no neon, no Japanese sushi-bar cues, no exaggerated Asian ornament, no watermark

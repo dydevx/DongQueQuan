@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: featured dish card
+Primary request: authentic Vietnamese bánh xèo
+Scene/backdrop: matte dark stone table in a modern Vietnamese restaurant
+Subject: one crisp golden turmeric rice crepe folded over bean sprouts, herbs and savory filling, with lettuce, mint and a small bowl of nước chấm clearly visible
+Style/medium: realistic professional restaurant food photography
+Composition/framing: portrait-friendly three-quarter close-up, whole crepe visible and not cropped, centered dish, shallow depth of field
+Lighting/mood: warm natural side light, appetizing and elegant
+Constraints: unmistakably bánh xèo, not curry, not omelette, no people, no text, no logo, no watermark

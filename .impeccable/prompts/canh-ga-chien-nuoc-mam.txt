@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: kitchen gallery image
+Primary request: Vietnamese cánh gà chiên nước mắm
+Scene/backdrop: dark walnut restaurant table with a small bowl of steamed rice
+Subject: caramelized fried chicken wings glazed in fish sauce with garlic, scallion and a few chili slices, served neatly on a dark ceramic plate
+Style/medium: realistic professional restaurant food photography, crisp chicken skin and natural sauce texture
+Composition/framing: landscape-friendly close-up, all wings and rice bowl visible
+Lighting/mood: warm amber side light, savory and premium
+Constraints: unmistakable chicken wings, not duck, no sushi, no people, no text, no logo, no watermark

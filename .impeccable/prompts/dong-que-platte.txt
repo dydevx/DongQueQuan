@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: speciality editorial image
+Primary request: Dong Que Platte, Vietnamese sharing platter for two
+Scene/backdrop: long dark walnut communal table
+Subject: one carefully composed sharing spread with two small soup bowls, green papaya salad, Vietnamese pork spring rolls, vegetarian spring rolls, chicken wings and rolled beef in lá lốt leaves, dipping sauce
+Style/medium: realistic professional restaurant food photography
+Composition/framing: wide three-quarter overhead, all parts distinct and fully visible
+Lighting/mood: warm convivial restaurant light, premium but generous
+Constraints: correct mixed Vietnamese sharing platter, no sushi, no Japanese elements, no people, no text, no logo, no watermark

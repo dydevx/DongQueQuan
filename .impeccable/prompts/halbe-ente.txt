@@ -1,0 +1,9 @@
+Use case: photorealistic-natural
+Asset type: featured dish card
+Primary request: Vietnamese restaurant half duck dish
+Scene/backdrop: dark walnut table, restrained contemporary Vietnamese restaurant setting
+Subject: sliced half roast duck with deeply crisp lacquered skin, tender meat visible, served over pak choi and vegetables with a small amount of glossy savory sauce
+Style/medium: realistic professional restaurant food photography
+Composition/framing: portrait-friendly three-quarter close-up, duck clearly recognizable, entire plated portion visible
+Lighting/mood: warm cinematic side light, premium but natural
+Constraints: unmistakable roast duck, not chicken, no curry, no sushi, no people, no text, no logo, no watermark
