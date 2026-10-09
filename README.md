@@ -23,7 +23,7 @@ Danach `http://localhost:8080` öffnen.
 ## Wichtige Hinweise
 
 - Die Originalfotos der Speisekarte im Projektstamm sind die Datenquelle. Eine doppelte Mittagskarten-Seite wurde nur einmal übernommen.
-- Die bereitgestellten Bilder enthalten VS1 bis VS4 sowie VS15 bis VS18. VS5 bis VS14 wurden nicht erfunden.
+- Die bereitgestellten Bilder enthalten jetzt alle vietnamesischen Spezialitäten VS1 bis VS18. Die zwei ergänzten Originalseiten liefern VS5 bis VS14 mit Beschreibungen, Preisen und Allergencodes.
 - Vor dem produktiven Deployment sollte die Canonical-URL in `index.html` gegen die endgültige Domain geprüft werden.
 - Warenkorb und Reservierungsformular erstellen strukturierte WhatsApp-Anfragen an `+49 89 20569403`; ein eigenes Bestell- oder Booking-Backend ist nicht erforderlich.
 - Der Warenkorb wird lokal im Browser gespeichert. Bestellungen sind als Abholanfragen ausgelegt und erst nach Antwort des Restaurants bestätigt.

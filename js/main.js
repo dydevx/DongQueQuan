@@ -426,6 +426,78 @@ const menuGroups = [
         "39,90 €",
         "a,b,3,9",
       ],
+      // Append new dishes to preserve the indices used by saved carts.
+      // renderMenu displays the specialties in dish-number order.
+      [
+        "VS5",
+        "Bun Rieu",
+        "Säuerliche Reisnudelsuppe mit Krabbenpaste, Muschelwurst, Tofu, Tomaten und frischen Kräutern",
+        "15,90 €",
+        "a,e,3,9",
+      ],
+      [
+        "VS6",
+        "Banh Canh",
+        "Udon-Suppe mit Schweinefleisch oder Garnelen und frischen Kräutern",
+        "15,90 €",
+        "b,f,4",
+      ],
+      [
+        "VS7",
+        "Chao Long",
+        "Reissuppe mit Herz, Leber, Blutwurst und Magen vom Schwein, dazu eine frittierte Teigstange",
+        "15,90 €",
+        "b,f,4",
+      ],
+      [
+        "VS8",
+        "Com Tam Suon Bi Cha",
+        "Reis mit gegrilltem Schweinefleisch, würziger Fischsoße, Tomaten und Gurke, dazu ein gedämpftes Eierbrötchen",
+        "16,90 €",
+        "a,e,3,9",
+      ],
+      [
+        "VS9",
+        "Banh Xeo (Pfannkuchen / Pancakes)",
+        "Pfannkuchen aus Reismehl, Kokosmilch, Garnelen, Schweinefleisch und Zwiebeln, dazu verschiedene Salate, Kräuter und Fischsoße",
+        "15,90 €",
+        "b,c,f,3,4",
+      ],
+      [
+        "VS10",
+        "Bun Dau Mam Tom",
+        "Reisnudeln mit Tofu, Schweinefleisch, frittierten Brötchen, Blutwurst, Gurken, verschiedenen Kräutern und Salat, dazu eine hausgemachte Garnelensoße",
+        "19,90 €",
+        "b,c,f,4",
+      ],
+      [
+        "VS11",
+        "Bun Cha Gio",
+        "Reisnudeln mit vietnamesischen Frühlingsrollen aus Schweinefleisch und frischen Kräutern, dazu Fischsoße, Erdnüsse und Röstzwiebeln",
+        "14,90 €",
+        "a,e,3,9",
+      ],
+      [
+        "VS12",
+        "Bun thit nuong",
+        "Reisnudeln mit gegrilltem Schweinefleisch, würziger Fischsoße, verschiedenen Kräutern, Erdnüssen und Röstzwiebeln",
+        "14,90 €",
+        "a,e,3,9",
+      ],
+      [
+        "VS13",
+        "Bun Bo La Lot",
+        "Reisnudeln mit Rindfleisch, gerollt in La-Lot-Blättern, mit würziger Fischsoße, Kräutern, Erdnüssen und Röstzwiebeln",
+        "14,90 €",
+        "a,b,3,9",
+      ],
+      [
+        "VS14",
+        "Bun Bo Nam Bo",
+        "Reisnudeln mit Rindfleisch, würziger Fischsoße, Kräutern, Erdnüssen und Röstzwiebeln",
+        "14,90 €",
+        "a,e,3,9",
+      ],
     ],
   },
   {
@@ -786,6 +858,9 @@ function renderMenu() {
       const matches = group.items.filter((item) =>
         normalise(item.join(" ")).includes(query),
       );
+      if (group.id === "spezialitaeten") {
+        matches.sort((a, b) => a[0].localeCompare(b[0], "de", { numeric: true }));
+      }
       if (!matches.length) return "";
       total += matches.length;
       return `<section class="menu-group" data-group="${group.category}" aria-labelledby="group-${group.id}">
