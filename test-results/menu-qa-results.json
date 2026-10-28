@@ -1,0 +1,284 @@
+[
+  {
+    "width": 375,
+    "height": 812,
+    "layout": {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "documentWidth": 397,
+      "bodyWidth": 397,
+      "hasPageOverflow": true,
+      "filterOrder": [
+        "Mittagskarte",
+        "Alle",
+        "Vorspeisen",
+        "Vegetarisch",
+        "Hauptspeisen",
+        "Spezialitäten",
+        "Dessert",
+        "Getränke"
+      ],
+      "activeFilter": "Mittagskarte",
+      "filterScrollable": true,
+      "filters": {
+        "clientWidth": 290,
+        "scrollWidth": 838
+      },
+      "toolbar": {
+        "x": 26.578125,
+        "y": -8563.96875,
+        "width": 321.84375,
+        "height": 131.40625,
+        "right": 348.421875,
+        "bottom": -8432.5625
+      },
+      "menuPage": {
+        "x": 26.578125,
+        "y": -15048.1875,
+        "width": 321.84375,
+        "height": 6615.625,
+        "right": 348.421875,
+        "bottom": -8432.5625
+      },
+      "firstGroup": {
+        "x": 44.96875,
+        "y": -14868.703125,
+        "width": 285.0625,
+        "height": 2811.5625,
+        "right": 330.03125,
+        "bottom": -12057.140625
+      },
+      "firstItem": {
+        "x": 44.96875,
+        "y": -14643.625,
+        "width": 285.0625,
+        "height": 184.046875,
+        "right": 330.03125,
+        "bottom": -14459.578125
+      },
+      "groupTitles": [
+        "Mittagskarte · Ente & Hähnchenbrust",
+        "Mittagskarte · Rinderlende",
+        "Mittagskarte · Schweinelende",
+        "Mittagskarte · Meeresfrüchte & Fisch"
+      ],
+      "firstNumbers": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14"
+      ],
+      "menuStatus": "27 Einträge",
+      "clippedButtons": [],
+      "overlappingButtons": false,
+      "itemCount": 27,
+      "brokenImages": [
+        ""
+      ]
+    },
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "badResponses": []
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "layout": {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "documentWidth": 790,
+      "bodyWidth": 790,
+      "hasPageOverflow": true,
+      "filterOrder": [
+        "Mittagskarte",
+        "Alle",
+        "Vorspeisen",
+        "Vegetarisch",
+        "Hauptspeisen",
+        "Spezialitäten",
+        "Dessert",
+        "Getränke"
+      ],
+      "activeFilter": "Mittagskarte",
+      "filterScrollable": true,
+      "filters": {
+        "clientWidth": 662,
+        "scrollWidth": 838
+      },
+      "toolbar": {
+        "x": 29.78125,
+        "y": -7581.546875,
+        "width": 708.4375,
+        "height": 136.21875,
+        "right": 738.21875,
+        "bottom": -7445.328125
+      },
+      "menuPage": {
+        "x": 29.78125,
+        "y": -12307.5625,
+        "width": 708.4375,
+        "height": 4862.234375,
+        "right": 738.21875,
+        "bottom": -7445.328125
+      },
+      "firstGroup": {
+        "x": 60.5,
+        "y": -12123.265625,
+        "width": 647,
+        "height": 2055.84375,
+        "right": 707.5,
+        "bottom": -10067.421875
+      },
+      "firstItem": {
+        "x": 60.5,
+        "y": -11935.890625,
+        "width": 647,
+        "height": 140.34375,
+        "right": 707.5,
+        "bottom": -11795.546875
+      },
+      "groupTitles": [
+        "Mittagskarte · Ente & Hähnchenbrust",
+        "Mittagskarte · Rinderlende",
+        "Mittagskarte · Schweinelende",
+        "Mittagskarte · Meeresfrüchte & Fisch"
+      ],
+      "firstNumbers": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14"
+      ],
+      "menuStatus": "27 Einträge",
+      "clippedButtons": [],
+      "overlappingButtons": false,
+      "itemCount": 27,
+      "brokenImages": [
+        ""
+      ]
+    },
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "badResponses": []
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "layout": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "hasPageOverflow": false,
+      "filterOrder": [
+        "Mittagskarte",
+        "Alle",
+        "Vorspeisen",
+        "Vegetarisch",
+        "Hauptspeisen",
+        "Spezialitäten",
+        "Dessert",
+        "Getränke"
+      ],
+      "activeFilter": "Mittagskarte",
+      "filterScrollable": true,
+      "filters": {
+        "clientWidth": 706,
+        "scrollWidth": 838
+      },
+      "toolbar": {
+        "x": 146.828125,
+        "y": -4920.0625,
+        "width": 1146.34375,
+        "height": 83.828125,
+        "right": 1293.171875,
+        "bottom": -4836.234375
+      },
+      "menuPage": {
+        "x": 146.828125,
+        "y": -8151.703125,
+        "width": 1146.34375,
+        "height": 3315.46875,
+        "right": 1293.171875,
+        "bottom": -4836.234375
+      },
+      "firstGroup": {
+        "x": 202.828125,
+        "y": -8019.796875,
+        "width": 1034.34375,
+        "height": 1296.09375,
+        "right": 1237.171875,
+        "bottom": -6723.703125
+      },
+      "firstItem": {
+        "x": 202.828125,
+        "y": -7836.984375,
+        "width": 488.375,
+        "height": 141.28125,
+        "right": 691.203125,
+        "bottom": -7695.703125
+      },
+      "groupTitles": [
+        "Mittagskarte · Ente & Hähnchenbrust",
+        "Mittagskarte · Rinderlende",
+        "Mittagskarte · Schweinelende",
+        "Mittagskarte · Meeresfrüchte & Fisch"
+      ],
+      "firstNumbers": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14"
+      ],
+      "menuStatus": "27 Einträge",
+      "clippedButtons": [],
+      "overlappingButtons": false,
+      "itemCount": 27,
+      "brokenImages": [
+        ""
+      ]
+    },
+    "consoleErrors": [],
+    "pageErrors": [],
+    "failedRequests": [],
+    "badResponses": []
+  }
+]
