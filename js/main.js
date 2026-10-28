@@ -1,5 +1,104 @@
 const menuGroups = [
   {
+    id: "mittag-gefluegel",
+    category: "mittag",
+    title: "Mittagskarte · Ente & Hähnchenbrust",
+    subtitle: "Montag bis Sonntag · 11:00 bis 15:00 Uhr",
+    items: [
+      [
+        "M1",
+        "Hausgemacht knusprig Ente",
+        "Auf Thai Rot Curry Gemüse",
+        "14,90 €",
+        "a,g",
+      ],
+      [
+        "M2",
+        "Ente gegrillt",
+        "Mit süß-saurer Soße und Gemüse",
+        "14,90 €",
+        "a,2,3,9",
+      ],
+      [
+        "M3",
+        "Ente gegrillt",
+        "Auf Gemüse und Hoisin-Soße",
+        "14,90 €",
+        "a,3,9",
+      ],
+      [
+        "M4",
+        "Hausgemacht knusprig Ente",
+        "Mit gebratenen Nudeln",
+        "14,90 €",
+        "a",
+      ],
+      [
+        "M5",
+        "Reisnudeln mit knusprig Ente",
+        "Mit frischen Kräutern und dazu eine Fischsoße",
+        "14,90 €",
+        "a,3",
+      ],
+      [
+        "M6",
+        "Thai Gelb Curry mit Hähnchenbrust",
+        "Mit Gemüse",
+        "13,90 €",
+        "a,g",
+      ],
+      [
+        "M7",
+        "Hähnchenbrust gebraten",
+        "Mit Gemüse und Erdnuss-Soße",
+        "13,90 €",
+        "a,e",
+      ],
+      [
+        "M8",
+        "Gebackenes Hähnchen",
+        "Mit pikant süß-saurer Soße",
+        "13,90 €",
+        "a,3,9",
+      ],
+      [
+        "M9",
+        "Gebratener Thai-Reis",
+        "Mit Hähnchenbrust und Gemüse",
+        "13,90 €",
+        "a,b,d",
+      ],
+      [
+        "M10",
+        "Reisnudeln mit Hähnchenbrust",
+        "Mit einer würzigen Fischsoße und Gemüse",
+        "13,90 €",
+        "a,3,9",
+      ],
+      [
+        "M11",
+        "Pad Thai - Gebratene Reisnudeln",
+        "Mit Hähnchen und Erdnüssen",
+        "13,90 €",
+        "a,e,f",
+      ],
+      [
+        "M12",
+        "Gebratene Glasnudeln",
+        "Mit Hähnchen und Gemüse",
+        "13,90 €",
+        "a,f,5",
+      ],
+      [
+        "M13",
+        "Gebratene Udon Nudeln",
+        "Mit Hähnchen und Gemüse",
+        "13,90 €",
+        "a,f,3,9",
+      ],
+    ],
+  },
+  {
     id: "vorspeisen",
     category: "vorspeisen",
     title: "Vorspeisen",
@@ -818,6 +917,37 @@ const menuGroups = [
     ],
   },
 ];
+
+// Keep the digital menu in the same page order as the photographed menu (1-17).
+const menuGroupOrder = [
+  "mittag-gefluegel",
+  "mittag-rind",
+  "mittag-schwein",
+  "mittag-meer",
+  "vorspeisen",
+  "fleisch",
+  "gefluegel",
+  "meeresfruechte",
+  "spezialitaeten",
+  "vegetarisch",
+  "dessert",
+  "alkoholfrei",
+  "vietnamesische-getraenke",
+  "tee-kaffee",
+  "bier",
+  "cocktails",
+  "rotwein",
+  "weisswein",
+  "schnaps",
+];
+const menuGroupPosition = new Map(
+  menuGroupOrder.map((groupId, position) => [groupId, position]),
+);
+menuGroups.sort(
+  (firstGroup, secondGroup) =>
+    (menuGroupPosition.get(firstGroup.id) ?? Number.MAX_SAFE_INTEGER) -
+    (menuGroupPosition.get(secondGroup.id) ?? Number.MAX_SAFE_INTEGER),
+);
 
 const menuContent = document.querySelector("#menu-content");
 const menuStatus = document.querySelector("#menu-status");
